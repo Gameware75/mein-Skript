@@ -2,6 +2,8 @@ import random
 import time
 anzahl = int(input("wie viele zufällige Karten möchtest du wissen: "))
 
+print("Generiere zufällige karten...")
+time.sleep(2)
 while anzahl != 0:
     opjoker = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1",]
 
