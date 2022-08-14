@@ -1,0 +1,19 @@
+import random
+import time
+anzahl = int(input("wie viele zufällige Karten möchtest du wissen: "))
+
+while anzahl != 0:
+    opjoker = ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1",]
+
+    joker = (random.choice(opjoker))
+
+    if joker == ("0"):
+        wert = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "K", "Q"]
+        Symbol = ["♠️", "♣️", "♥️", "♦️"]
+
+        print("Eine zufällige karte ist ", random.choice(Symbol), random.choice(wert))
+
+    if joker == ("1"):
+        print("Eine zufällige karte ist", "JOKER")
+
+    anzahl = anzahl - 1
